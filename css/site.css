@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'VT323', monospace;
+}
+
+main{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.abas{
+    display: flex;
+}
+
+.abas .aba, .abas .aba2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor:pointer;
+    transition: background-color 0. 2s ease-in-out;
+
+    background-color: black;
+    color: white;
+}
+
+.abas .aba.selecionado{
+    background-color: #262626;
+}
+
+.info-abas{
+    background-color: #262626;
+    display: flex;
+}
+
+.abas .aba:hover{
+    background-color: #414141;
+}
+
+.time{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.time.selecionado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(209, 211, 60);
+}
+
+.time.selecionado img{
+    width: 280px;
+    height: 280px;
+}
+
+.time.selecionado .defesa, .time.selecionado .meio-campo, .time.selecionado .ataque{
+    flex-direction: row;
+    display: flex;
+    padding-top: 150px;
+}
+
+.time.selecionado .defesa div, .time.selecionado .meio-campo div, .time.selecionado .ataque div{
+    padding-right: 100px;
+
+}
+
+#sanji{
+    padding-right: 0;
+}
+
+#tec{
+    align-items: flex-end;
+    justify-items: right;
+    font-size: 30px;
+    
+}
+
+#tec img{
+    width: 150px;
+    height: 130px;
+    padding-left: 20px;
+}
+
+.tecnico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 1100px;
+    
+}
+
+
+#time-masculino{
+        background-image: url("../img/campo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.barra{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.barra:hover{
+    background-color: rgb(196, 55, 55);
+}
+
+.barra h1{
+    font-size: 20px;
+}
