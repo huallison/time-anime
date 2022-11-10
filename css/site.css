@@ -74,7 +74,7 @@ main{
 }
 
 .time.selecionado .defesa div, .time.selecionado .meio-campo div, .time.selecionado .ataque div{
-    padding-right: 10%;
+    padding-right: 50px;
 
 }
 
