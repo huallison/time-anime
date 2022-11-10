@@ -63,8 +63,8 @@ main{
 }
 
 .time.selecionado img{
-    width: 10%;
-    height: 10%;
+    width: 70px;
+    height: 70px;
 }
 
 .time.selecionado .defesa, .time.selecionado .meio-campo, .time.selecionado .ataque{
@@ -74,7 +74,7 @@ main{
 }
 
 .time.selecionado .defesa div, .time.selecionado .meio-campo div, .time.selecionado .ataque div{
-    padding-right: 120px;
+    padding-right: 50px;
 
 }
 
