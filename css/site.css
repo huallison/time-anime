@@ -63,8 +63,8 @@ main{
 }
 
 .time.selecionado img{
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
 }
 
 .time.selecionado .defesa, .time.selecionado .meio-campo, .time.selecionado .ataque{
